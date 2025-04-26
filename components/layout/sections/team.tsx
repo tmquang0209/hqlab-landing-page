@@ -34,7 +34,7 @@ export const TeamSection = () => {
 			],
 		},
 		{
-			imageUrl: "https://tmquang.com/avatar.jpg",
+			imageUrl: "https://avatars.githubusercontent.com/u/111066440?v=4",
 			firstName: "Hoa",
 			lastName: "Le",
 			positions: ["Mobile Developer"],
