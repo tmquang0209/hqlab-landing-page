@@ -85,7 +85,7 @@ export const TeamSection = () => {
 				<h2 className="text-3xl md:text-4xl text-center font-bold">The Company Dream Team</h2>
 			</div>
 
-			<div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
+			<div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
 				{teamList.map(({ imageUrl, firstName, lastName, positions, socialNetworks }, index) => (
 					<Card key={`${firstName}-${lastName}`} className="bg-muted/60 dark:bg-card flex flex-col h-full overflow-hidden group/hoverimg">
 						<CardHeader className="p-0 gap-0">
